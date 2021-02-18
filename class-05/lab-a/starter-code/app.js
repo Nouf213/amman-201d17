@@ -77,8 +77,8 @@ function arr(array){
 }
 function sumArray(sumArr) { //eslint-disable-line
         let sum = arr(sumArr);
-        let sumoutput = String(sumArr) + ` was passed in as an array of numbers, and ${sum} is their sum.`;
-        return [sum, sumoutput];
+        let summing = String(sumArr) + ` was passed in as an array of numbers, and ${sum} is their sum.`;
+        return [sum, summing];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
