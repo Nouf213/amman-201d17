@@ -9,8 +9,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-    let result=a+b;
-    let statement=`the sum of ${a} and ${b} is ${result}.`;
+    let result= a + b ;
+    let statement=`The sum of ${a} and ${b} is ${result}.`;
     return[result,statement];
 }
 
